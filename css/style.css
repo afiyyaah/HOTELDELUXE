@@ -363,6 +363,7 @@ select:hover{
 .rooms ul li a{
     text-decoration: none;
  margin:21px 16px;
+    color:black;
 }
 
 .yellow_footer{
