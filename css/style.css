@@ -14,7 +14,7 @@
   font-family:'Ardecode';
   src: URL('ARDECODE.ttf') format('truetype');
 }
-
+button{border: none;}
 header{
     min-height: 90px;
     background-color: #2A2E33;
@@ -362,8 +362,8 @@ select:hover{
 .rooms ul li{float: left; }
 .rooms ul li a{
     text-decoration: none;
- margin:21px 16px;
-    color:black;
+    margin:21px 16px;
+    color: black;
 }
 
 .yellow_footer{
@@ -398,14 +398,15 @@ select:hover{
 }
 .sil{
     width:30%;
-    float: right;
+    position: relative;
     
 }
 .sil img{
     float: left;
     width: 100%;
     transform: scale(1.07);
-    margin-top: -120px;
+    margin-top: -119px;
+    position: absolute;
 }
 .footer{
     background-color: #333333;
